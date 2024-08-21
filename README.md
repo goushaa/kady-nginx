@@ -22,7 +22,7 @@ docker build -t custom-nginx .
 To run the container, use:
 
 ```sh
-docker run -d -p 80:80 -e MESSAGE="Your custom message here" goushaa:kady-nginx
+docker run -d -p 80:80 -e MESSAGE="Your custom message here" custom-nginx
 ```
 
 ## Dockerhub
